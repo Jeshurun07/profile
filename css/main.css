@@ -106,10 +106,10 @@
     }
     
     .abtMe img {
-        border-radius: 50%;
+        border-radius: 70%;
         width: 80%;
         height: 80%;
-        filter: drop-shadow(10px 10px 1px #616463);
+        /*filter: drop-shadow(10px 10px 1px #616463);*/
     }
     
     .abtMe .details {
