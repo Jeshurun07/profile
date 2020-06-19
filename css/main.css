@@ -1,6 +1,7 @@
     body {
         padding: 0;
         margin: 0;
+        width: 100%;
         text-align: center;
         background-color: #d1f5d3;
     }
@@ -54,9 +55,6 @@
         margin: auto;
         display: inline-block;
     }
-    /*.profile h1 {
-    font-size: 1.5rem;
-}*/
     
     .profile h2 {
         font-weight: normal;
@@ -90,6 +88,14 @@
         color: #000;
         border: 1px solid #11999E;
     }
+    /*******Mobile*****/
+    
+    @media only screen and (max-width: 768px) {
+        .menu {
+            visibility: hidden;
+        }
+    }
+    /*******End of Mobile*****/
     
     .abtMe {
         text-align: center;
@@ -132,6 +138,19 @@
     .abtMe li {
         font-weight: normal;
         line-height: 2;
+    }
+    /*******Mobile*****/
+    
+    @media only screen and (max-width: 768px) {
+        .row {
+            display: inherit;
+        }
+        .abtMe {
+            width: 100%;
+            margin: 10px auto 10px auto;
+            text-align: left;
+            line-height: 2;
+        }
     }
     
     .skill-row {
@@ -252,6 +271,8 @@
         padding-top: 3px;
         padding-bottom: 10px;
         color: #fff;
+        width: 100%;
+        box-sizing: content-box;
     }
     
     .bottom-container a {
