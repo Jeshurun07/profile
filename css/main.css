@@ -60,6 +60,10 @@
             font-weight: normal;
         }
         
+        .skills-tbl {
+            margin: 10px auto 10px auto;
+        }
+        
         .menu {
             color: #fff;
             width: 15%;
