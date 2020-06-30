@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Testing </title>
+    <script lang="javascript">
+        var object = {
+            prop: this,
+            method: function() {
+                return this;
+            }
+        };
+
+        var array = [
+            this,
+            function() {
+                return this;
+            }
+        ];
+
+        function global() {
+            return this;
+        }
+    </script>
+</head>
+
+<body></body>
+
+</html>
