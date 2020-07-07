@@ -96,7 +96,7 @@
         }
         
         .abtMe p {
-            font-family: Futura, 'Titillium Web', sans-serif;
+            font-family: Helvetica, 'Titillium Web', sans-serif;
             font-size: 1rem;
             text-align: justify;
             line-height: 2;
@@ -110,7 +110,7 @@
         }
         
         .abtMe .details {
-            font-family: 'Titillium Web', sans-serif;
+            font-family: Helvetica, 'Titillium Web', sans-serif;
             font-size: 1rem;
             text-align: justify;
             line-height: 2;
@@ -172,7 +172,7 @@
         }
         
         .achievements p {
-            font-family: 'Titillium Web', sans-serif;
+            font-family: Helvetica, 'Titillium Web', sans-serif;
             margin: 0;
         }
         
@@ -254,12 +254,12 @@
         }
         
         .bottom-container a {
-            font-family: 'Titillium Web', sans-serif;
+            font-family: Helvetica, 'Titillium Web', sans-serif;
             color: #fff;
         }
         
         .bottom-container p {
-            font-family: 'Titillium Web', sans-serif;
+            font-family: Helvetica, 'Titillium Web', sans-serif;
             color: #fff;
         }
         
